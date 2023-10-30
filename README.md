@@ -19,3 +19,6 @@ download jdk-20 windows x64 installer -> create directories (Program Files -> Ja
 
 
 i watched this video about how to install java jdk-20 and set environment variables on youtube - https://youtube.com/watch?v=5pno0ddT_74
+
+
+i downloaded java development kit 20 from this website - https://oracle.com/java/technologies/javase/jdk20-archive-downloads.html
