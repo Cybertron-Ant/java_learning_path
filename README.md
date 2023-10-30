@@ -16,3 +16,6 @@ type "environ" in the (windows) search bar -> click (edit the system environment
 
 # install java development kit 20:
 download jdk-20 windows x64 installer -> create directories (Program Files -> Java -> jdk-20) -> install jdk in that file path
+
+
+i watched this video about how to install java jdk-20 and set environment variables on youtube - https://youtube.com/watch?v=5pno0ddT_74
