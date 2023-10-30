@@ -22,3 +22,7 @@ i watched this video about how to install java jdk-20 and set environment variab
 
 
 i downloaded java development kit 20 from this website - https://oracle.com/java/technologies/javase/jdk20-archive-downloads.html
+
+
+#set up java runtime environment (jre):
+click the (window) tab -> click (preferences) -> (installed jre) dropdown -> click (execution environment) -> under 'execution environments' click (javaSE-1.6) -> under 'compatible JREs' checkmark (jre) -> click (apply and close) -> select and right-click 'MyFirstProject' -> click (properties) -> click (Java Compiler) -> select 1.6 from the drop-down menu -> checkmark 'Enable project specific settings' -> uncheck 'Use compliance from execution environment 'JavaSE-20' on the 'Java Build Path' ' -> checkmark 'Use default compliance settings' -> click (Apply and Close) -> click the (file) tab -> click (Restart)
