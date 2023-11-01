@@ -1,4 +1,4 @@
-class HelloWorld {
+class MyScanner {
   public static void main(String[] args) {
     
   }// end method
