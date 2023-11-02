@@ -11,7 +11,7 @@ right-click (src) folder -> click (new) -> click (class) -> type "MyClass" insid
 
 
 #set environment variables:
-type "environ" in the (windows) search bar -> click (edit the system environment variables) -> click (environment variables) -> click (path) under 'system variables' -> click (edit) -> navigate to the (bin) folder inside the (java jdk 20) folder and copy the file path -> click (new) under 'environment variables' -> paste the copied path -> click (ok) -> under 'system variables' select 'Path' -> click (new) -> type "JAVA_HOME" inside 'variable name' field -> paste copied path inside 'variable value' field and remove the ".bin" -> click (ok) -> click (ok) -> click (ok) -> type "cmd" in windows search bar -> type 'java --version' in command prompt
+type "environ" in the (windows) search bar -> click (edit the system environment variables) -> click (environment variables) -> click (path) under 'system variables' -> click (edit) -> navigate to the (bin) folder inside the (java jdk 20) folder and copy the file path -> click (new) under 'environment variables' -> paste the copied path -> click (ok) -> under 'system variables' select 'Path' -> click (new) -> type "JAVA_HOME" inside 'variable name' field -> paste copied path inside 'variable value' field and remove the "/bin" -> click (ok) -> click (ok) -> click (ok) -> type "cmd" in windows search bar -> type 'java --version' in command prompt
 
 
 # install java development kit 20:
