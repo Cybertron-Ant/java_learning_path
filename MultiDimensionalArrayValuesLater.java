@@ -18,6 +18,17 @@ class MultiDimensionalArrayValuesLater {
 
     /* define the multi-dimensional array with the specified dimensions from user input */
     multiDimArray = new int[rows][columns];
+
+
+    /* populate the array with user input using a 'for' loop */
+    System.out.println("Enter values for the array:");
+
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < columns; j++) {
+        System.out.print("Enter value for position [" + i + "][" + j + "]: ");
+        multiDimArray[i][j] = scanner.nextInt();
+      }// end FOR
+    }// end FOR
     
   }// end method
 }// end class
