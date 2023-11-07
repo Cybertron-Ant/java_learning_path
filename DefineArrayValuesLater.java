@@ -1,6 +1,9 @@
 class DefineArrayValuesLater {
   public static void main(String[] args) {
 
+    // invoke a Scanner object
+    Scanner scanner = new Scanner(System.in); 
+
     // declare an array
     int[] myArray;
 
