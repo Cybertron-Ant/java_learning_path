@@ -8,6 +8,10 @@ class CalculatorAlgorithm {
 
     public static void main(String[] args) {
         // main methods code goes here
+
+       /* invoke 'addition' method */
+      int additionResult = addition();
+      System.out.println("Addition : " + additionResult);
       
     }// end main
 
