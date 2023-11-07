@@ -19,6 +19,15 @@ class DefineArrayValuesLater {
             System.out.print("Enter value " + (i + 1) + ": ");
             myArray[i] = scanner.nextInt();
     }// end FOR
+
+
+    // print even numbers using a 'for' loop
+    System.out.println("Even numbers in the array:");
+    for (int num : myArray) {
+      if (num % 2 == 0) {
+        System.out.println(num);
+      }// end IF
+    }// end FOR
     
   }// end method
 }// end class
