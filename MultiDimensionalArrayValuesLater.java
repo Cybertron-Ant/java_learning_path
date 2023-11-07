@@ -15,6 +15,9 @@ class MultiDimensionalArrayValuesLater {
     int rows = scanner.nextInt();
     System.out.print("Enter the number of columns: ");
     int columns = scanner.nextInt();
+
+    /* define the multi-dimensional array with the specified dimensions from user input */
+    multiDimArray = new int[rows][columns];
     
   }// end method
 }// end class
