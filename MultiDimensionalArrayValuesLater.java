@@ -6,6 +6,9 @@ class MultiDimensionalArrayValuesLater {
 
     /* create instance of 'Scanner" object/class */
     Scanner scanner = new Scanner(System.in);
+
+    /* declare a multi-dimensional array */
+    int[][] multiDimArray;
     
   }// end method
 }// end class
