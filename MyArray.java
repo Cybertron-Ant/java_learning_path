@@ -20,6 +20,11 @@ class MyArray {
 
     /* the '.length' array method prints the length of an array */
     System.out.println(a.length);
+
+    /* print each element[i] of the array using a 'for' loop */
+    for (int i = 0; i < a.length; i++) {
+      System.out.println(a[i]);
+    }// end FOR
     
   }// end method
 }// end class
