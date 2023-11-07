@@ -13,6 +13,12 @@ class DefineArrayValuesLater {
 
     // populate the array with user input
     System.out.println("Enter " + numberOfElements + " integers:");
+
+    // populate the array with user input using a 'for' loop
+    for (int i = 0; i < numberOfElements; i++) {
+            System.out.print("Enter value " + (i + 1) + ": ");
+            myArray[i] = scanner.nextInt();
+    }// end FOR
     
   }// end method
 }// end class
