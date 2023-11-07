@@ -11,6 +11,9 @@ class HelloWorl {
 
     /* a[2] sets the third index position of the array to the value 100 */
     a[2] = 100;
+
+    /* a[3] sets the fourth index position of the array to the value 5000 */
+    a[3] = 5000;
     
   }// end method
 }// end class
