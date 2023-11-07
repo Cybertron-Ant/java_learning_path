@@ -31,6 +31,9 @@ class DefineArrayValuesLater {
         System.out.println(num);
       }// end IF
     }// end FOR
+
+    // close the Scanner object when done
+    scanner.close();
     
   }// end method
 }// end class
