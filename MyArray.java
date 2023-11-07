@@ -21,10 +21,18 @@ class MyArray {
     /* the '.length' array method prints the length of an array */
     System.out.println(a.length);
 
+    /* set 'result' to value 0 */
+    int result = 0;
     /* print each element[i] of the array using a 'for' loop */
     for (int i = 0; i < a.length; i++) {
-      System.out.println(a[i]);
+      
+      /* add each element in the array */
+      result = result + a[i];
+      
     }// end FOR
+
+    /* print value of 'result' */
+    System.out.println(result);
     
   }// end method
 }// end class
