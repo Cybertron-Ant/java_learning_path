@@ -1,3 +1,4 @@
+// question #4
 // import Scanner class to support taking user input
 import java.util.Scanner;
 
