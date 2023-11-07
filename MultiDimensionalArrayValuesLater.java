@@ -9,6 +9,12 @@ class MultiDimensionalArrayValuesLater {
 
     /* declare a multi-dimensional array */
     int[][] multiDimArray;
+
+    // prompt user to enter the dimensions of the multi-dimensional array using integers
+    System.out.print("Enter the number of rows: ");
+    int rows = scanner.nextInt();
+    System.out.print("Enter the number of columns: ");
+    int columns = scanner.nextInt();
     
   }// end method
 }// end class
