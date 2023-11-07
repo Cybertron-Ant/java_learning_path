@@ -15,6 +15,16 @@ class MultiDimensionalArray {
         30  10
         200 10*/
     a[1][0] = 2008;
+
+
+    /* iterate through the rows of the multi-dimensional array */
+    for (int i = 0; i < a.length; i++) {
+    /* iterate through the columns of the multi-dimensional array */
+      for (int j = 0; j < a[i].length; j++) {
+        System.out.print(a[i][j] + " ");
+      }// end 2nd FOR
+      System.out.println(); /* move to the next row of the multi-dimensional array */
+   }// end 1st FOR
     
   }// end method
 }// end class
