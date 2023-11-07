@@ -28,6 +28,9 @@ class MultiDimensionalArray {
 
     /* use the '.length' method to get the number of rows in the 2D array */
     System.out.println("Length (rows) "  + a.length); 
+
+    /* use the '.length' method to get the number of columns in the 2D array */
+    System.out.println("Length (Columns) "  + a[0].length); 
     
   }// end method
 }// end class
