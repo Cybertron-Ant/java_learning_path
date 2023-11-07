@@ -25,6 +25,9 @@ class MultiDimensionalArray {
       }// end 2nd FOR
       System.out.println(); /* move to the next row of the multi-dimensional array */
    }// end 1st FOR
+
+    /* use the '.length' method to get the number of rows in the 2D array */
+    System.out.println("Length (rows) "  + a.length); 
     
   }// end method
 }// end class
