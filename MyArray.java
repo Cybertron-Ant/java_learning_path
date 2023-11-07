@@ -17,6 +17,9 @@ class MyArray {
 
     /* a[4] sets the fifth index position of the array to the value 50000 */
     a[4] = 50000;
+
+    /* the '.length' array method prints the length of an array */
+    System.out.println(a.length);
     
   }// end method
 }// end class
