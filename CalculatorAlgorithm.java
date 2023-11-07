@@ -20,4 +20,13 @@ class CalculatorAlgorithm {
     return a + b;
 }// end addition method
 
+    /* defined subtraction method */
+    static int subtraction() {
+      System.out.println("Enter 1st Number for Subtraction : ");
+      int a = scan.nextInt();
+      System.out.println("Enter 2nd Number for Subtraction : ");
+      int b = scan.nextInt();
+      return a - b;
+    }//end subtraction method
+
 }// end class
