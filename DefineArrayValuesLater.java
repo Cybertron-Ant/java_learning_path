@@ -1,3 +1,7 @@
+// import Scanner class to take user input
+import java.util.Scanner;
+
+
 class DefineArrayValuesLater {
   public static void main(String[] args) {
 
