@@ -20,6 +20,10 @@ class CalculatorAlgorithm {
       /* invoke 'multiplication' method inside 'main' method */
       int multiplicationResult = multiplication();
       System.out.println("Multiplication : " + multiplicationResult);
+
+      /* invoke 'division' method inside 'main' method */
+      int divisionResult = division();
+      System.out.println("Division : " + divisionResult);
       
     }// end main
 
