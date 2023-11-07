@@ -10,6 +10,9 @@ class DefineArrayValuesLater {
 
     // define the array with the specified number of elements based on user input value
     myArray = new int[numberOfElements];
+
+    // populate the array with user input
+    System.out.println("Enter " + numberOfElements + " integers:");
     
   }// end method
 }// end class
