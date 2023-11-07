@@ -29,4 +29,14 @@ class CalculatorAlgorithm {
       return a - b;
     }//end subtraction method
 
+
+    /* defined multiplication method */
+    static int multiplication() {
+      System.out.println("Enter 1st Number for Multiplication : ");
+      int a = scan.nextInt();
+      System.out.println("Enter 2nd Number for Multiplication : ");
+      int b = scan.nextInt();
+      return a * b;
+   }// end multiplication method
+
 }// end class
