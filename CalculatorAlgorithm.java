@@ -16,6 +16,10 @@ class CalculatorAlgorithm {
       /* invoke 'subtraction' method inside 'main' method */
       int subtractionResult = subtraction();
       System.out.println("Subtraction : " + subtractionResult);
+
+      /* invoke 'multiplication' method inside 'main' method */
+      int multiplicationResult = multiplication();
+      System.out.println("Multiplication : " + multiplicationResult);
       
     }// end main
 
