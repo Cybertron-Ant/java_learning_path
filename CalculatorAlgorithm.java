@@ -39,4 +39,18 @@ class CalculatorAlgorithm {
       return a * b;
    }// end multiplication method
 
+
+    /* defined division method */
+    static int division() {
+      System.out.println("Enter the numerator for Division : ");
+      int a = scan.nextInt();
+      System.out.println("Enter the denominator for Division : ");
+      int b = scan.nextInt();
+      if (b == 0) {
+        System.out.println("Error: Division by zero");
+        return 0;
+      }
+      return a / b;
+   }// end division method
+
 }// end class
