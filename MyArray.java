@@ -5,6 +5,9 @@ class HelloWorl {
 
     /* a[0] sets the first index position of the array to the value 10 */
     a[0] = 10;
+
+    /* a[1] sets the second index position of the array to the value 20 */
+    a[1] = 20;
     
   }// end method
 }// end class
