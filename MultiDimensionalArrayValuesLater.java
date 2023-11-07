@@ -29,6 +29,17 @@ class MultiDimensionalArrayValuesLater {
         multiDimArray[i][j] = scanner.nextInt();
       }// end FOR
     }// end FOR
+
+
+    // print even numbers from the array using a 'for' loop
+    System.out.println("Even numbers in the array:");
+    for (int i = 0; i < rows; i++) {
+      for (int j = 0; j < columns; j++) {
+        if (multiDimArray[i][j] % 2 == 0) {
+          System.out.println(multiDimArray[i][j]);
+        }// end IF
+      }// end FOR
+    }// end FOR
     
   }// end method
 }// end class
