@@ -30,3 +30,5 @@ static void add(){
 
  /* define a class called 'A' */
 class A {
+  /* declare an instance variable n1 and assign it the value 100 */
+  int n1 = 100;
