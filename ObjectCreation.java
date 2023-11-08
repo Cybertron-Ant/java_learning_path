@@ -19,6 +19,10 @@ class ObjectCreation {
       /* print the value of the 'n1' instance variable for both 'a1' and 'a2'. Initially, both instances have the same value of 'n1', which is 100 */
       System.out.println(a1.n1);
       System.out.println(a2.n1);
+
+      /* change the value of the 'n1' instance variable for 'a1' to 10 and then print it again. This change only affects the 'n1' variable of 'a1' and not 'a2' */
+      a1.n1 = 10;
+      System.out.println(a1.n1);
       
     }// end 'main'
 }// end class ObjectCreation
