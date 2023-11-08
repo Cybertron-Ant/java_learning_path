@@ -23,6 +23,9 @@ class ObjectCreation {
       /* change the value of the 'n1' instance variable for 'a1' to 10 and then print it again. This change only affects the 'n1' variable of 'a1' and not 'a2' */
       a1.n1 = 10;
       System.out.println(a1.n1);
+
+      /* print the value of the 'n1' instance variable for 'a2'. This value remains 100 as it was not modified */
+      System.out.println(a2.n1);
       
     }// end 'main'
 }// end class ObjectCreation
