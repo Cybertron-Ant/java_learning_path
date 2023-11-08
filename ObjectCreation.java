@@ -7,6 +7,10 @@ class ObjectCreation {
       
       /* print the value of the 'number' variable  */
       System.out.println(number);
+
+      /* change the value of 'number' to 1000 and then print it again  */
+      number = 1000;
+      System.out.println(number);
       
     }// end 'main'
 }// end class ObjectCreation
