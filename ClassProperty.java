@@ -27,3 +27,6 @@ static void add(){
   /* print "Addition" */
   System.out.println("Addition");
 }// end add
+
+ /* define a class called 'A' */
+class A {
