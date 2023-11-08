@@ -14,3 +14,8 @@ class ObjectCreation {
       
     }// end 'main'
 }// end class ObjectCreation
+
+/* define the 'A' class, with an instance variable 'n1' initialized to 100 */
+class A {
+    int n1 = 100;
+}// end class 'A'
