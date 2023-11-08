@@ -16,3 +16,7 @@ class ClassProperty {
 
         /* call the 'add' method */
         add();
+
+        /* call the 'multiple' method of the 'a1' object */
+        a1.multiple();
+    } // end 'main'
