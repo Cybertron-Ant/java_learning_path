@@ -20,3 +20,6 @@ class ClassProperty {
         /* call the 'multiple' method of the 'a1' object */
         a1.multiple();
     } // end 'main'
+
+/* define a static method called 'add' outside the 'main' method */
+static void add(){
