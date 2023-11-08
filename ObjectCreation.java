@@ -15,6 +15,10 @@ class ObjectCreation {
       /* create two instances of the 'A' class named 'a1' and 'a2' */
       A a1 = new A();
       A a2 = new A();
+
+      /* print the value of the 'n1' instance variable for both 'a1' and 'a2'. Initially, both instances have the same value of 'n1', which is 100 */
+      System.out.println(a1.n1);
+      System.out.println(a2.n1);
       
     }// end 'main'
 }// end class ObjectCreation
