@@ -13,3 +13,6 @@ class ClassProperty {
 
         /* print value of the 'n1' instance variable/property of the 'a1' object/class */
         System.out.println(a1.n1);
+
+        /* call the 'add' method */
+        add();
