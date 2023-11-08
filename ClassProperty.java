@@ -23,3 +23,7 @@ class ClassProperty {
 
 /* define a static method called 'add' outside the 'main' method */
 static void add(){
+
+  /* print "Addition" */
+  System.out.println("Addition");
+}// end add
