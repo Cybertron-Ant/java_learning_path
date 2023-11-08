@@ -35,3 +35,7 @@ class A {
 
   /* define a static method called 'multiple' within the 'A' class */
   static void multiple(){
+    /* print "Multiplication" */
+    System.out.println("Multiplication");
+    }//  end multiple
+}// end class A
