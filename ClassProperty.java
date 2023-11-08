@@ -7,3 +7,6 @@ class ClassProperty {
 
         /* print the value of the 'number' variable */
         System.out.println(number);
+
+        /* create an instance of class 'A' and name it 'a1' */
+        A a1 = new A();
