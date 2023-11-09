@@ -11,6 +11,7 @@ class Person {
 
   /* define a 'constructor' for the 'Person' class that takes a 'String' parameter for the person's name */
   public Person(String name) {
+    /* inside the constructor, set the value of the instance variable 'name' to the value of the parameter passed in */
     this.name = name;
  }// end CONSTRUCTOR 'Person'
 
