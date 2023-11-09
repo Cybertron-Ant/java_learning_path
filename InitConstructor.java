@@ -9,4 +9,9 @@ class Person {
   /* define a private instance variable/property for the person's name */
   private String name;
 
+  /* define a 'constructor' for the 'Person' class that takes a 'String' parameter for the person's name */
+  public Person(String name) {
+    this.name = name;
+ }// end CONSTRUCTOR 'Person'
+
 }// end class Person
