@@ -4,6 +4,9 @@ class InitConstructor {
     /* create a new instance of the 'Person' class and pass in a name as an argument/parameter */
     Person person1 = new Person("John");
 
+    /* if i try to reassign the 'name' property to different value, it will give an error because it is 'private'/protected */
+    //person1.name = "Wick";
+
     /* print the person's name using the getName() method of the 'person1' class instance of the 'Person' class */
     System.out.println("Person's name is: " + person1.getName());
     
