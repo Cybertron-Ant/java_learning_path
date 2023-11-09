@@ -1,5 +1,8 @@
 class InitConstructor {
   public static void main(String[] args) {
+
+    /* create a new instance of the 'Person' class and pass in a name as an argument/parameter */
+    Person person1 = new Person("John");
     
   }// end method
 }// end class InitConstructor
