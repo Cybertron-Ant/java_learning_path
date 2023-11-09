@@ -3,3 +3,8 @@ class InitConstructor {
     
   }// end method
 }// end class InitConstructor
+
+/* declare 'Person' class */
+class Person {
+
+}// end class Person
