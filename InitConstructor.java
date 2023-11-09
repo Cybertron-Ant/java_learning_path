@@ -15,4 +15,9 @@ class Person {
     this.name = name;
  }// end CONSTRUCTOR 'Person'
 
+  /* define a getter method for the 'name' instance variable/property that's inside the constructor */
+  public String getName() {
+    return name;
+ }// end method 'getName'
+
 }// end class Person
