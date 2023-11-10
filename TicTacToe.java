@@ -11,5 +11,8 @@ class TicTacToe {
     System.out.print("Enter a number: ");
     int number = input.nextInt();
 
+    // close 'input' to prevent resource leak
+    input.close();
+
   }// end method
 }// end class
