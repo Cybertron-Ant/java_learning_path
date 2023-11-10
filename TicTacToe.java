@@ -25,6 +25,11 @@ class TicTacToe {
       System.out.println("Tic");
             
     } // end ELSEIF
+    else if (number % 5 == 0) {
+            
+      // elseif a number is divisible by 5 then print "Tac"
+      System.out.println("Tac");
+    } // end ELSEIF
 
   }// end method
 }// end class
