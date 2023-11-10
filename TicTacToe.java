@@ -9,7 +9,7 @@ class TicTacToe {
 
     // prompt user to enter a number
     System.out.print("Enter a number: ");
-    int number = inpput.nextInt();
+    int number = input.nextInt();
 
   }// end method
 }// end class
