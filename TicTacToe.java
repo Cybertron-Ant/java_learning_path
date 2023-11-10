@@ -14,5 +14,11 @@ class TicTacToe {
     // close 'input' to prevent resource leak
     input.close();
 
+
+    //  if a number is divisible by 3 and 5 then print "TicTac"
+    if (number % 3 == 0 && number % 5 == 0) {
+      System.out.println("TicTac");
+    } // end IF
+
   }// end method
 }// end class
