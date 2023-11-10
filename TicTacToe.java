@@ -19,6 +19,12 @@ class TicTacToe {
     if (number % 3 == 0 && number % 5 == 0) {
       System.out.println("TicTac");
     } // end IF
+    else if (number % 3 == 0) {
+            
+      // elseif a number is divisible by 3 then print "Tic"
+      System.out.println("Tic");
+            
+    } // end ELSEIF
 
   }// end method
 }// end class
