@@ -28,6 +28,8 @@ class SwitchStatement {
           break;
               
       }// end SWITCH
+      /* print "Thank you!!" regardless, after the switch statement */
+      System.out.println("Thank you!!");
 
     }// end method 'main'
 }// end class 'SwitchStatement'
