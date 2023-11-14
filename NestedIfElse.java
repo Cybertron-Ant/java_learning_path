@@ -14,6 +14,9 @@ class NestedIfElse {
       } else {
         System.out.println("No Scholarship");
       }// end ELSE
+
+      /* print a "Thank you" message that gets printed regardless if scholarship was received or not */
+      System.out.println("Thank you!!");
     
     }// end method 'main'
 }// end class NestedIfElse
