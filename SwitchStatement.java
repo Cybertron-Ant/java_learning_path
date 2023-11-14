@@ -21,6 +21,11 @@ class SwitchStatement {
         case 300 :
           System.out.println("Input is 300.");
           break;
+
+        /* executes if none of the cases match */
+        default :
+          System.out.println("No cases match.");
+          break;
               
       }// end SWITCH
 
