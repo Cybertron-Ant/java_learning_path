@@ -11,6 +11,11 @@ class SwitchStatement {
         case 100 :
           System.out.println("Input is 100.");
           break;
+
+        /* check if 'marks' variable is 200 and executes the code block if true */
+        case 200 :
+          System.out.println("Input is 200.");
+          break;
               
       }// end SWITCH
 
