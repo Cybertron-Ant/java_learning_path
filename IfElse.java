@@ -12,6 +12,11 @@ class IfElse {
     } else {
       System.out.println("Number is zero.");
     }// end ELSE
+    
+    /*  print "Thank you" message that gets printed regardless of the number's positivity or negativity */
+    {
+      System.out.println("Thank you!!");
+    }// end block
 
   }// end method 'main'
 }// end class IfElse
