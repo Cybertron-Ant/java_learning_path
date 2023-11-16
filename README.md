@@ -21,8 +21,12 @@ download jdk-20 windows x64 installer -> create directories (Program Files -> Ja
 i watched this video about how to install java jdk-20 and set environment variables on youtube - https://youtube.com/watch?v=5pno0ddT_74
 
 
-i downloaded java development kit 20 from this website - https://oracle.com/java/technologies/javase/jdk20-archive-downloads.html
+i downloaded java development kit 20 from this website - https://oracle.com/java/technologies/javase/jdk20-archive-downloads.htmlz
 
 
 #set up java runtime environment (jre):
 click the (window) tab -> click (preferences) -> click Java -> (installed jre) dropdown -> click (execution environment) -> under 'execution environments' click (javaSE-1.6) -> under 'compatible JREs' checkmark (jre) -> click (apply and close) -> select and right-click 'MyFirstProject' -> click (properties) -> click (Java Compiler) -> select 1.6 from the drop-down menu -> checkmark 'Enable project specific settings' -> uncheck 'Use compliance from execution environment 'JavaSE-20' on the 'Java Build Path' ' -> checkmark 'Use default compliance settings' -> click (Apply and Close) -> click the (file) tab -> click (Restart)
+
+
+# use 'import' statements to import classes in Eclipse IDE:
+MyFirstProject folder -> src folder -> create new package(com.test) -> create new class(HelloWorld.java)[write some code] inside com.test package -> create new package(com.dog) inside 'src' folder -> create new class(Dog.java)['public' class](package com.dog;)[write some code] inside com.dog package -> type 'import com.dog.Dog;'('com.dog' is the package name, '.Dog' is the class name) in 'HelloWorld.java', use your imported class in your 'main' method of your HelloWorld.java program || if you are creating classes inside the same package that holds your 'HelloWorld.java' class, Eclipse IDE will handle the imports automatically, so you don't have to use/type 'import' statements
