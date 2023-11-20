@@ -16,5 +16,8 @@ class _1_LargestValue {
             }// end IF
         }// end FOR
 
+        // print the value of the biggest element found
+        System.out.println("In this cosmic array, behold the mightiest entity: " + chosenOne);
+
   }// end method
 }// end class
