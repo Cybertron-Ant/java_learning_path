@@ -4,7 +4,7 @@ import java.util.Scanner; // Importing the Scanner utility for input reading
 The program starts by asking the user to input the size of the square matrix, defining how many rows and columns it will have.
 It then prompts the user to input the elements of the square matrix row by row.
 After performing the calculations, the program displays the calculated normal and trace of the provided matrix.*/
-public class MatrixNormalAndTrace {
+public class _8_MatrixNormalAndTrace {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Initializing the scanner object
