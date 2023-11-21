@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*  allows users to input a square matrix and then calculates its determinant */
-public class DeterminantFinder {
+public class _7_DeterminantFinder {
 
     // 'findDeterminant' method to find the matrix's determinant
     public static int findDeterminant(int[][] matrix) {
