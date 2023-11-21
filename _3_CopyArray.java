@@ -15,6 +15,9 @@ class _3_CopyArray {
     }// end FOR
     System.out.println();
 
+    // call 'transferEssence' method to transfer the elements from source to destination array, taking both arrays as arguments
+    transferEssence(sourceEssence, destinationEssence);
+
   }// end method
 
 
