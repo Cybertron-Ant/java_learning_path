@@ -7,6 +7,9 @@ class _5_AddMatrices {
 
       // call 'addMatrices' method to add two matrices
       int[][] resultMatrix = addMatrices(matrix1, matrix2);
+
+      // print the result of the matrices addition
+      displayMatrix(resultMatrix);
         
     }// end 'main' method
 
