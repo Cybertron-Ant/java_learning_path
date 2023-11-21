@@ -4,6 +4,13 @@ class _4_CheckMatrixEquality {
       // define two matrices to compare their equality, later
       int[][] matrix1 = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
       int[][] matrix2 = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9} };
+
+       // call the 'MatricesEquality' method to check if the matrices are equal or not
+       if (MatricesEquality(matrix1, matrix2)) {
+         System.out.println("Marvelous! The matrices are magically equal!");
+       } else {
+            System.out.println("The matrices are not on the same mystical plane.");
+       }// end ELSE
     
     }// end 'main' method
 
