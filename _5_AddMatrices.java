@@ -23,4 +23,15 @@ class _5_AddMatrices {
         return result;
     }//end 'addMatrices' method
 
+
+    // define method 'displayMatrix' to print the (summation) matrix
+    public static void displayMatrix(int[][] matrix) {
+        for (int[] row : matrix) {
+            for (int value : row) {
+                System.out.print(value + " "); // observe! the values of the matrix unfold!
+            }// end FOR
+            System.out.println();
+        }// end FOR
+    }// end method 'displayMatrix'
+
 }// end class '_5_AddMatrices'
