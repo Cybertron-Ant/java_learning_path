@@ -18,6 +18,12 @@ class _3_CopyArray {
     // call 'transferEssence' method to transfer the elements from source to destination array, taking both arrays as arguments
     transferEssence(sourceEssence, destinationEssence);
 
+    // print the transferred elements residing within the destination array
+    System.out.println("\nDestination Essence after the mystical transfer:");
+    for (int essence : destinationEssence) {
+      System.out.print(essence + " "); // printing the channeled elements in the destination
+    }// end FOR
+
   }// end method
 
 
