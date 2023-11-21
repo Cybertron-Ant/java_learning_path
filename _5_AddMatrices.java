@@ -4,6 +4,9 @@ class _5_AddMatrices {
       // define two matrices, 'matrix' and 'matrix2' variables
       int[][] matrix1 = { { 3, 7, 2 }, { 9, 2, 4 }, { 6, 1, 5 } };
       int[][] matrix2 = { { 4, 5, 9 }, { 8, 3, 6 }, { 1, 2, 7 } };
+
+      // call 'addMatrices' method to add two matrices
+      int[][] resultMatrix = addMatrices(matrix1, matrix2);
         
     }// end 'main' method
 
