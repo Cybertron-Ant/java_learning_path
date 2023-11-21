@@ -13,5 +13,16 @@ class _2_Array2D {
     for (int j = 0; j < columns; j++) // Wandering through columns
         twoDArray[i][j] = value++; // Assigning values
 
+
+    // Behold! The revelation of the 2D array
+    System.out.println("The enchanted 2D array is:");
+
+    // print the contents of the 2D array using a nested 'for' loops
+    for (int[] row : twoDArray) { // journey through rows
+      for (int element : row) // see the essence of each element in the row
+        System.out.print(element + " "); // print the element
+      System.out.println(); // moving to the next layer
+    }// end FOR
+
     } // end method
 } // end class
