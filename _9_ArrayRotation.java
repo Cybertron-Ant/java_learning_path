@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /* prompts the user to input the number of elements in the array, the array elements themselves, and the number of positions to rotate. Then, it performs a left rotation based on the user's input and displays the resulting array before and after rotation.
 */
-public class ArrayRotation {
+public class _9_ArrayRotation {
 
     // Function to perform a left rotation of an array 'arr' to the left by 'd' positions
     public static void leftRotate(int[] arr, int d) {
