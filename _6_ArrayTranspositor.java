@@ -1,5 +1,5 @@
 /* 'ArrayTranspositor' class flip the rows and columns of a 2D array, transposing its elements, and then prints the transposed array */
-public class ArrayTranspositor {
+public class _6_ArrayTranspositor {
 
     // define 'transposeArray' method that can swap an array's elements around
     public int[][] transposeArray(int[][] array) {
