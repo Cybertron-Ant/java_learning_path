@@ -12,5 +12,5 @@ public class Parent1 extends GrandParent1{
 		System.out.println(child1.number1);
 		System.out.println(number3);
     
-	}// end method 'main'
+	}// end method 'add'
 }// end class 'Parent1'
