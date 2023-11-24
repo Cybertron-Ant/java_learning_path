@@ -12,5 +12,5 @@ public class GrandParent1 {
 		System.out.println(child1.number1);
 		System.out.println(child1.number2);
     
-	}// end method 'main'
+	}// end method 'multiply'
 }// end class 'GrandParent1'
