@@ -39,10 +39,16 @@ public class WordVowelTracker {
             }// end SWITCH
         }// end FOR
 
-        // print the counts of each vowel, each on a new lineString[] vowels = {"A", "E", "I", "O", "U"};
-        for (int i = 0; i < vowelCounts.length; i++) {
+        // without 'for' loop, print the counts of each vowel, each on a new line, procedurally
+        System.out.println("Vowel counts:");
+        System.out.println("A - " + vowelCounts[0]);
+        System.out.println("E - " + vowelCounts[1]);
+        System.out.println("I - " + vowelCounts[2]);
+        System.out.println("O - " + vowelCounts[3]);
+        System.out.println("U - " + vowelCounts[4]);
+        /*for (int i = 0; i < vowelCounts.length; i++) {
           System.out.println(vowels[i] + " - " + vowelCounts[i]);
-        }// end FOR
+        }// end FOR bugs */
     }// end method 'trackVowels'
 
     public static void main(String[] args) {
