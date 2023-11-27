@@ -1,0 +1,14 @@
+Encapsulation is one of the fundamental principles in object-oriented programming (OOP) that focuses on bundling the data (variables) and methods (functions or procedures) that operate on the data within a single unit or class. It involves the concept of access control and hiding the internal state of an object from the outside world.
+
+In simpler terms, encapsulation means:
+
+Data Hiding: It allows the internal workings or state of an object to be hidden from the outside, preventing direct access to it. This is achieved by declaring the variables of a class as private and providing public methods (getters and setters) to access or modify this data.
+
+Access Control: It defines the level of accessibility to the members of a class. Using access modifiers like private, public, protected, or package-private in languages like Java, C++, or C#, encapsulation ensures that the internal representation of an object is hidden and can only be accessed by the methods present in that class.
+
+Benefits of Encapsulation:
+
+Security: It helps in preventing unauthorized access and modification of data by enforcing controlled access through methods.
+Flexibility and Maintainability: It allows the class to change its internal implementation without affecting the classes that use it, as long as the public interface remains unchanged.
+Modularity: Encapsulation promotes modularity by encapsulating related functionality and data within a single unit (class), making the code more organized and manageable.
+Encapsulation is a crucial concept in OOP as it promotes better code organization, data security, and reusability by restricting direct access to the internal state of an object and allowing controlled access through well-defined interfaces.
