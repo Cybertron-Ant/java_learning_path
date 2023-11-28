@@ -1,5 +1,5 @@
 
-// class 'EncapsulationMainTest' containing the 'main' method to test encapsulation
+// class 'EncapsulationMainTest' containing the 'main' method to test encapsulation instanciating the 'EncapsulationClass' class
 public class EncapsulationMainTest {
 
 	public static void main(String[] args) {
