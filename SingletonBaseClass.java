@@ -1,5 +1,5 @@
 
-// base class 'SingletonBaseClass' implementing the Singleton design pattern
+// base class 'SingletonBaseClass' implementing the Singleton design pattern.
 public class SingletonBaseClass {
 	
 	// private constructor to prevent direct instantiation
