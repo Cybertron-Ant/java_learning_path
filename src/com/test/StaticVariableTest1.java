@@ -1,6 +1,6 @@
 package com.test;
 
-// class 'StaticVariableTest1' containing the 'main' method to manipulate and display static variable values
+// class 'StaticVariableTest1' containing the 'main' method to manipulate and display static variable values.
 public class StaticVariableTest1 {
 
 	public static void main(String[] args) {
