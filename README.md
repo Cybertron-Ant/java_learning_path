@@ -1,3 +1,11 @@
+# 'abstract' classes provide a way to define a blueprint that other classes can follow. They allow for method definition without implementation, which enforces the implementation in the subclasses.
+
+Abstract classes cannot be instantiated directly; you can only create instances of concrete subclasses.
+Abstract methods don’t have a body and must be implemented in the subclass.
+Abstract classes can have both abstract and non-abstract methods.
+If a class contains even one abstract method, the class itself must be declared as abstract.
+
+
 # java_learning_path
 This repo hosts all that I've learned from books about Java
 
