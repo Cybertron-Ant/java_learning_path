@@ -2,8 +2,8 @@ package com.test;
 
 import java.util.HashMap;
 
-// class 'TestHashMapClass' dshows the usage of 'HashMap' by storing, retrieving, and printing key-value pairs
-public class TestHashMapClass {
+// class 'TestHashMapClass2' dshows the usage of 'HashMap' by storing, retrieving, and printing key-value pairs
+public class TestHashMapClass2 {
 
 	public static void main(String[] args) {
 		
@@ -34,4 +34,4 @@ public class TestHashMapClass {
     
 	}// end method 'main'
 
-}// end class 'TestHashMapClass'
+}// end class 'TestHashMapClass2'
